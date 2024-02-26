@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YouTube</title>
+    <link rel="icon" href="logo.webp">
     <style>
         html,
         body {
             height: 100%;
-            background-color:rgb(255, 255, 255);
+            background-color: rgb(255, 255, 255);
 
         }
 
@@ -22,11 +23,15 @@
             display: flex;
             justify-content: space-between;
             padding: 10px;
+            flex-wrap: wrap;
+
         }
 
         .text {
-            scale: 1.7;
-            margin-top: 5px;
+            scale: 1.6;
+            margin-top: 10px;
+            border-radius: 30%;
+
         }
 
         h2 {
@@ -38,21 +43,24 @@
             color: aliceblue;
         }
 
-        button{
+        button {
             width: 60px;
             height: 30px;
             justify-content: space-between;
-            background-color: black;
-            color: white;
-            transition:1s;
-            border-radius: 9px;
-        }
-        button:hover{
-            background-color: white;
+            background-color: rgb(250, 244, 244);
             color: black;
-
+            transition: 1s;
+            border-radius: 9px;
+            border: 1px solid rgb(156, 145, 145);
         }
-        .box1{
+
+        button:hover {
+            background-color: rgb(153, 146, 146);
+            color: black;
+            mar
+        }
+
+        .box1 {
             background: url(video2.jpg) no-repeat;
             height: 300px;
             width: 340px;
@@ -60,28 +68,97 @@
             display: flex;
             cursor: pointer;
         }
-        h4{
+
+        p {
             margin-top: 200px;
 
         }
-        .con2{
+        .a {
+            margin-top: 400px;
+
+        }
+
+        .con2 {
             padding: 20px;
             justify-content: space-around;
         }
-        .box2{
+
+        .box2 {
             background: url(video3.jpg) no-repeat;
             height: 300px;
             width: 340px;
             cursor: pointer;
         }
-        .container3{
+
+        .container3 {
             display: flex;
-            justify-content:space-between;
+            justify-content: space-between;
             flex-wrap: wrap;
             padding: 10px;
+            font-size: 25px;
         }
-        .box3{
+        .container4 {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding: 10px;
+            font-size: 25px;
+        }
+        .s1{
+            background: url(s1.jpg) no-repeat;
+            height: 370px;
+            width: 300px;
+            cursor: pointer;
+        }
+        .s2{
+            background: url(s2.jpg) no-repeat;
+            height: 370px;
+            width: 300px;
+            cursor: pointer;
+        }
+        .s3{
+            background: url(s3.jpg) no-repeat;
+            height: 370px;
+            width: 300px;
+            cursor: pointer;
+        }
+        .s4{
+            background: url(s4.jpg) no-repeat;
+            height: 370px;
+            width: 300px;
+            cursor: pointer;
+        }
+        .s5{
+            background: url(s5.jpg) no-repeat;
+            height: 370px;
+            width: 300px;
+            cursor: pointer;
+        }
+
+
+        .box3 {
             background: url(video4.jpg) no-repeat;
+            height: 300px;
+            width: 340px;
+            cursor: pointer;
+        }
+
+        .box4 {
+            background: url(video5.jpg) no-repeat;
+            height: 300px;
+            width: 340px;
+            cursor: pointer;
+        }
+
+        .box5 {
+            background: url(video6.jpg) no-repeat;
+            height: 300px;
+            width: 340px;
+            cursor: pointer;
+        }
+
+        .box6 {
+            background: url(video7.jpg) no-repeat;
             height: 300px;
             width: 340px;
             cursor: pointer;
@@ -93,11 +170,11 @@
     <div class="container">
         <img src="youtube.jpg" alt="">
         <div class="text">
-            <input type="text" placeholder="find..">
+            <input type="text" placeholder="Search..">
         </div>
         <div class="button">
             <button>Login</button>
-            <button>Regastration</button>
+            <button>Design</button>
         </div>
     </div>
     <div class="con2">
@@ -107,7 +184,7 @@
         <button>Games</button>
         <button>Karabakh </button>
         <button>Music</button>
-        <button>Football</button>
+        <button>Sport</button>
         <button>Games</button>
         <button>News</button>
         <button>Music</button>
@@ -117,17 +194,43 @@
         <button>Music</button>
         <button>Football</button>
         <button>Games</button>
-        <button>News</button>
-        <button>Music</button>
-        <button>Football</button>
-        <button>Games</button>
-        <button>News</button>
-    </div>
-    <div class="container3">
-      <div class="box1"><h4>Sumqayıt ən böyük rəqibinə qalib gələ bilmədi</h4></div>
-      <div class="box2"><h4>Finalla qazandıq!!!</h4></div>
-      <div class="box3"><h4>Avropa liqasası Azərkeş gözü ilə</h4></div>
-    </div>
-</body>
+        <div class="container3">
+            <div class="box1">
+                <p>Sumqayıt ən böyük rəqibinə qalib gələ bilmədi.</p>
+            </div>
+            <div class="box2">
+                <p>Finalla qazandıq!!!</p>
+            </div>
+            <div class="box3">
+                <p>Avropa liqasası Azərkeş gözü ilə.</p>
+            </div>
+            <div class="box4">
+                <p>"Qarabağ" nağılı belə başladı.</p>
+            </div>
+            <div class="box5">
+                <p>Kaç para Aldın lan kelleme Ferman!?</p>
+            </div>
+            <div class="box6">
+                <p>Qarabağın oyunlarının tarixi bəlli oldu.</p>
+            </div>
+        </div>
+        <img src="shorts.jpg" width="160px">
+        <div class="container4">
+            <div class="s1">
+                <div class="a">Qarabağ Braga oyun analizi</div>
+            </div>
+            <div class="s2">
+                <div class="a">Qurban hocaaa</div>
+            </div>
+            <div class="s3">
+                <div class="a">Qurban Qurbanov&Xabi Olonso</div>
+            </div>
+            <div class="s4">
+                <div class="a">Cristiano Ronaldo Respect</div>
+            </div>
+            <div class="s5">
+                <div class="a">Not look passes</div>
+            </div>
+        </div>
 
 </html>
